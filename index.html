@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Fit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="header-container">
+            <a href="#home" class="logo">
+                <!-- إضافة شعار الموقع -->
+                <img src="logo.png" alt="شعار الموقع">
+                <span>Gym<span>Fit</span></span>
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home"><i class="fas fa-home"></i> الرئيسية</a></li>
+                    <li><a href="#features"><i class="fas fa-star"></i> المزايا</a></li>
+                    <li><a href="#services"><i class="fas fa-dumbbell"></i> الخدمات</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> الاتصال</a></li>
+                </ul>
+            </nav>
+            <!-- زر القائمة للأجهزة المحمولة -->
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Landing Section -->
+    <section class="landing" id="home">
+        <div class="content">
+            <h2>مرحبا بك في <span>Gym Fit</span></h2>
+            <p>ابدأ رحلتك نحو اللياقة البدنية المثالية معنا الآن!</p>
+           <a href="#contact"> <button class="cta-button">اشترك الآن</button></a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="cards" id="features">
+        <h2>مزايا خدماتنا</h2>
+        <div class="card-container">
+            <div class="card" style="--card-index: 1;">
+                <img src="card.3.jpg" alt="معدات حديثة">
+                <h3>معدات حديثة</h3>
+                <p>أحدث المعدات لضمان تدريب فعال وآمن.</p>
+            </div>
+            <div class="card" style="--card-index: 2;">
+                <img src="card.2.jpg" alt="صحة ولياقة">
+                <h3>صحة ولياقة</h3>
+                <p>نساعدك في تحسين صحتك العامة ولياقتك.</p>
+            </div>
+            <div class="card" style="--card-index: 3;">
+                <img src="card.1.jpg"إرشاد غذائي">
+                <h3>إرشاد غذائي</h3>
+                <p>خطط غذائية تناسب أهدافك الصحية.</p>
+            </div>
+        </div>
+ 
+
+    <!-- Form Section -->
+    <section class="form-section" id="contact">
+        <h2>اتصل بنا</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">الاسم:</label>
+                <div class="input-container">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="name" name="name" required placeholder="أدخل اسمك">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">البريد الإلكتروني:</label>
+                <div class="input-container">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" name="email" required placeholder="أدخل بريدك الإلكتروني">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">الرسالة:</label>
+                <div class="input-container">
+                    <i class="fas fa-comment-dots"></i>
+                    <textarea id="message" name="message" required placeholder="أدخل رسالتك"></textarea>
+                </div>
+            </div>
+            <button type="submit"><i class="fas fa-paper-plane"></i> إرسال</button>
+        </form>
+    </section>
+
+    <section class="contact-section" id="contact">
+      
+        <div class="contact-info">
+            <p><i class="fas fa-phone-alt"></i> الهاتف: <a href="tel:+123456789">0592070516</a></p>
+            <p><i class="fas fa-envelope"></i> البريد الإلكتروني: <a href="mailto:example@example.com">HosamSAlkhateeb@gmail.com</a></p>
+            <p><i class="fas fa-map-marker-alt"></i> العنوان: شارع البركة، دير البلح، غزة</p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/hoosam.sami.7?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/home?lang=ar" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/hosam._.sami?igsh=MWNlN2lxZWRybzE2dw==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </section>
+    
+    <!-- تذييل الصفحة -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2023 جميع الحقوق محفوظة. <a href="#">GymFit </a></p>
+            <nav class="footer-nav">
+                <a href="#home">الرئيسية</a>
+                <a href="#about">من نحن</a>
+                <a href="#services">خدماتنا</a>
+                <a href="#contact">اتصل بنا</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
